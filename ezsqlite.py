@@ -1,6 +1,6 @@
 import sqlite3
 
-class EazySQLite3():
+class EzSQLite3():
     def __init__(self, db: str = "sqlite.db"):
         self.connection = sqlite3.connect(db)
         #self.cursor = sqlite_connection.cursor()
